@@ -1,0 +1,37 @@
+.navLogo{
+  width: 100%;
+  max-width: 2.5rem;
+}
+
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navLogoContainer{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbarMenuContainer{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navItem{
+  list-style: none;
+}
+
+.navLink{
+  color: var(--text-primary);
+}
+
+.navTitle{
+  font-size: var(--text-xl);
+  font-family: var(--font-heading);
+  font-weight: var(--weight-bold);
+  color: var(--gold-primary);
+}

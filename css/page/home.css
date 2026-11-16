@@ -1,0 +1,98 @@
+/* ==========hero section=========== */
+
+.heroSection{
+  background: url(../../asset/images/Background-Photo.jpg) center/auto no-repeat;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroContentContainer{
+  width: 100%;
+  max-width: 23rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.heroHighlight{
+  font-family: var(--font-body);
+}
+
+.heroBtn,.aboutBtm{
+  margin-top: 1rem;
+}
+
+.heroDescription{
+  font-size: var(--text-base);
+}
+
+/*========== main Content ==========  */
+
+.mainContentImg{
+  width: 100%;
+  max-width: 30rem;
+  border-radius: var(--radius-xl);
+}
+
+.aboutContainer{
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.aboutContentContainer{
+  width: 100%;
+  max-width: 30rem;
+}
+
+.aboutTitle{
+  font-size: var(--text-3xl);
+  font-family: var(--font-heading );
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.aboutDescription{
+  font-size: var(--text-sm);
+}
+
+.aboutTextContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.hotelFeatureIcon{
+  width: 100%;
+  max-width: 3rem;
+}
+
+.hotelDescriptionContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.hotelFeatureContentContainer{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hotelFeatureContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-left: 3px solid var(--gold-primary);
+  padding: 1rem;
+}
+
+.hotelMainText{
+  font-size: var(--text-md);
+  font-weight: var(--weight-bold);
+  color: var(--gold-primary);
+}
