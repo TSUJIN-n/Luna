@@ -104,3 +104,49 @@
 
 /* ========== hotel rooms ========== */
 
+.hotelRoomTitle{
+  font-size: var(--text-3xl);
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.hotelRoomHeaderContentContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hotelRoomStandardContainer {
+  background: url(../../asset/images/room-standard.jpg) center/cover no-repeat;
+}
+
+.hotelRoomDeluxeContainer {
+  background: url(../../asset/images/room-deluxe.jpg) center/cover no-repeat;
+}
+
+.hotelRoomLuxuryContainer {
+  background: url(../../asset/images/room-suite.jpg) center/cover no-repeat;
+}
+
+.hotelRoomFamilyContainer {
+  background: url(../../asset/images/room-family.jpg) center/cover no-repeat;
+}
+
+.hotelRoomStandardContainer,
+.hotelRoomDeluxeContainer,
+.hotelRoomLuxuryContainer,
+.hotelRoomFamilyContainer {
+  height: 20rem;
+  flex: 1 1 calc(50% - 0.5rem); 
+  display: flex;
+  align-items: flex-end;
+}
+
+.hotelRoomContentContainer{
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
