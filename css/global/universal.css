@@ -142,7 +142,7 @@ h3 {
 }
 
 p {
-    color: var(--text-secondary);
+    color: var(--text-primary);
 }
 
 a {
@@ -154,5 +154,4 @@ button, input, textarea, select {
     font-family: var(--font-body);
     font-size: inherit;
 }
-
 
