@@ -120,33 +120,76 @@
 }
 
 .hotelRoomStandardContainer {
-  background: url(../../asset/images/room-standard.jpg) center/cover no-repeat;
+  position: relative;
+  background-image: none;
 }
 
 .hotelRoomDeluxeContainer {
-  background: url(../../asset/images/room-deluxe.jpg) center/cover no-repeat;
+  position: relative;
+  background-image: none;
 }
 
 .hotelRoomLuxuryContainer {
-  background: url(../../asset/images/room-suite.jpg) center/cover no-repeat;
+  position: relative;
+  background-image: none;
 }
 
 .hotelRoomFamilyContainer {
-  background: url(../../asset/images/room-family.jpg) center/cover no-repeat;
+  position: relative;
+  background-image: none;
 }
 
+.hotelRoomStandardContainer::before{
+  background: url(../../asset/images/room-standard.jpg) center/cover no-repeat;
+  border-radius: var(--radius-lg);
+  opacity: 0.5;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+}
+
+.hotelRoomDeluxeContainer::before{
+  background: url(../../asset/images/room-deluxe.jpg) center/cover no-repeat;
+  border-radius: var(--radius-lg);
+  opacity: 0.5;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+}
+
+.hotelRoomLuxuryContainer::before{
+  background: url(../../asset/images/room-suite.jpg) center/cover no-repeat;
+  border-radius: var(--radius-lg);
+  opacity: 0.5;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+}
+
+.hotelRoomFamilyContainer::before{
+  opacity: 0.5;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+  background: url(../../asset/images/room-family.jpg) center/cover no-repeat;
+  border-radius: var(--radius-lg);
+}
 .hotelRoomStandardContainer,
 .hotelRoomDeluxeContainer,
 .hotelRoomLuxuryContainer,
 .hotelRoomFamilyContainer {
-  height: 20rem;
-  flex: 1 1 calc(50% - 0.5rem); 
+  height: 15rem;
   display: flex;
   align-items: flex-end;
   border-radius: var(--radius-lg);
   padding: 1rem;
   display: flex;
   justify-content: space-between;
+  width: 46%;
 }
 
 .hotelRoomContentContainer{
@@ -155,10 +198,11 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem;
+  justify-content: center;
 }
 
 .hotelRoomName{
-  font-size: var(--text-4xl);
+  font-size: var(--text-2xl);
   font-family: var(--font-heading);
   color: var(--text-primary);
   font-weight: var(--weight-bold);
@@ -167,14 +211,14 @@
 
 .hotelRoomDescription{
   font-size: var(--text-base);
-  font-weight: var(--weight-medium);
-  color: var(--text-primary);
+  font-weight: var(--weight-semibold);
+  color: var(--text-secondary);
   font-family: var(--font-body);
 }
 
 .hotelPriceHighlight{
   font-size: var(--text-2xl);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semibold);
   font-family: var(--font-body);
 }
 
@@ -195,7 +239,7 @@
 }
 
 .hotelPrice{
-  font-size: var(--text-xl);
+  font-size: var(--text-lg);
   font-weight: var(--weight-bold);
 }
 
