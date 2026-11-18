@@ -371,6 +371,7 @@
   font-weight: var(--weight-bold);
   border-radius: var(--radius-xl);
   display: inline-block;
+  margin-bottom: 1rem;
 }
 
 .hotelSpecialOfferTitle{
