@@ -30,7 +30,10 @@
 }
 
 .heroDescription{
-  font-size: var(--text-base);
+  font-size: var(--text-md);
+  font-family: var(--font-body);
+  font-weight: var(--weight-semibold);
+  margin-top: 0.5rem;
 }
 
 /*========== main Content ==========  */
