@@ -13,7 +13,6 @@
 
 .section-title {
     font-family: var(--font-heading);
-    font-size: 6rem;
     color: var(--text-primary);
     line-height: 1;
 }
@@ -37,6 +36,7 @@
     transition: var(--transition-normal);
     font-family: var(--font-body);
     display: inline-block;
+    width: max-content;
 }
 
 .gold-button:hover {

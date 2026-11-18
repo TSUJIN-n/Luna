@@ -6,6 +6,8 @@
     --primary-bg: #0D0D0D;
     --secondary-bg: #151515;
     --tertiary-bg: #1D1B19;
+    
+    
 
     /* Card Colors */
     --card-bg: #191715;
@@ -124,24 +126,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
-    font-weight: var(--weight-medium);
-    line-height: 1.2;
+    line-height: 1;
     color: var(--text-primary);
 }
 
-h1 {
-    font-size: var(--text-5xl);
-}
-
-h2 {
-    font-size: var(--text-4xl);
-}
-
-h3 {
-    font-size: var(--text-2xl);
-}
-
-p {
+p{
+    font-family: var(--font-body);
     color: var(--text-primary);
 }
 

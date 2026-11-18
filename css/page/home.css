@@ -21,8 +21,13 @@
   gap: 0.2rem;
 }
 
+.section-title{
+  font-size: 5rem;
+}
+
 .heroHighlight{
   font-family: var(--font-body);
+  font-weight: var(--weight-semibold);
 }
 
 .heroBtn,.aboutBtm{
@@ -122,22 +127,10 @@
   padding-top: 1rem;
 }
 
-.hotelRoomStandardContainer {
-  position: relative;
-  background-image: none;
-}
-
-.hotelRoomDeluxeContainer {
-  position: relative;
-  background-image: none;
-}
-
+.hotelRoomFamilyContainer,
+.hotelRoomStandardContainer,
+.hotelRoomDeluxeContainer,
 .hotelRoomLuxuryContainer {
-  position: relative;
-  background-image: none;
-}
-
-.hotelRoomFamilyContainer {
   position: relative;
   background-image: none;
 }
