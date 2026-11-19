@@ -76,17 +76,20 @@
 
 .ourStoryImg,
 .whyChooseUsImg{
-  width: 50rem;
-  height: 25rem;
+  width: 40rem;
+  height: 20rem;
   border-radius: var(--radius-xl);
   border: 1px solid var(--gold-light);
 }
 
-.ourStoryContentContainer,
-.ourStoryImgContainer{
+.ourStoryContentContainer{
   flex: 1;
 }
-
+.ourStoryImgContainer{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
 
 /* ============Purpose============== */
 
@@ -148,6 +151,8 @@
 
 .whyChooseUsImgContainer{
   flex: 1;
+  align-items: center;
+  display: flex;
 }
 
 .whyChooseUsTitle,
