@@ -60,6 +60,7 @@
   display: flex;
   gap: 1rem;
   padding: 1rem 0rem;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -85,11 +86,6 @@
 
 .ourStoryContentContainer{
   flex: 1;
-}
-.ourStoryImgContainer{
-  flex: 1;
-  display: flex;
-  align-items: center;
 }
 
 /* ============Purpose============== */
@@ -139,6 +135,7 @@
 .whyChooseUsContainer{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -148,12 +145,6 @@
   flex-direction: column;
   gap: 0.5rem;
   flex: 1;
-}
-
-.whyChooseUsImgContainer{
-  flex: 1;
-  align-items: center;
-  display: flex;
 }
 
 .whyChooseUsTitle,
